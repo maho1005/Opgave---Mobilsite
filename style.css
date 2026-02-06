@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Zalando";
+  src: url("fonts/ZalandoSansExpanded-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
+header,
+main {
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(176, 202, 225);
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+
+h1,
+h2,
+h3 {
+  background-color: rgb(136, 161, 184);
+  padding: 20px;
+  border-radius: 12px;
+  font-family: "Zalando", sans-serif;
+}
+
+p {
+  font-family: "Roboto", serif;
+}
+
+.button {
+  background: rgb(136, 161, 184);
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
