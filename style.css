@@ -16,12 +16,20 @@ main {
 body {
   background-color: rgb(176, 202, 225);
   line-height: 1.6;
+  font-family: "Roboto", serif;
 }
 
 img {
   width: 100%;
   margin: 15px 0;
   border-radius: 12px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  width: 80%;
+  display: block;
+  margin: -40px auto;
 }
 
 h1,
@@ -43,4 +51,14 @@ p {
   border-radius: 12px;
   margin-bottom: 25px;
   display: inline-block;
+}
+
+.knap {
+  display: inline-block;
+  background-color: rgb(136, 161, 184);
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-family: "Zalando", sans-serif;
+  margin-top: 10px;
 }
